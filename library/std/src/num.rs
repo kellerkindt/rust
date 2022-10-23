@@ -12,7 +12,7 @@ mod tests;
 #[cfg(test)]
 mod benches;
 
-#[unstable(feature = "saturating_int_impl", issue = "87920")]
+#[unstable(feature = "saturating_int_impl", since = "1.66.0")]
 pub use core::num::Saturating;
 #[stable(feature = "rust1", since = "1.0.0")]
 pub use core::num::Wrapping;
